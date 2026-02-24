@@ -1,6 +1,6 @@
 # Email Sender Bot
 
-Telegram bot for managing email campaigns. Configure SMTP accounts, build contact lists, compose emails with templates, and send bulk campaigns — all through a Telegram chat interface.
+Telegram bot for managing email campaigns. Configure SMTP accounts, build contact lists, compose emails with templates, and send bulk campaigns, all through a Telegram chat interface.
 
 ## How it works
 
@@ -21,9 +21,9 @@ Contacts can be imported from text files or parsed from structured data. Email t
 ## Tech stack
 
 - **Python 3** with asyncio
-- **aiogram 3** — async Telegram bot framework
-- **SQLite** — local database for users, contacts, campaigns, SMTP configs
-- **smtplib** — built-in Python SMTP client
+- **aiogram 3** for async Telegram bot interaction
+- **SQLite** as local database for users, contacts, campaigns, SMTP configs
+- **smtplib** for SMTP delivery
 
 ## Setup
 
